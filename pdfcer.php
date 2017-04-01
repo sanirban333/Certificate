@@ -1,4 +1,5 @@
 <?php
+error_page uri = $ 405;
 $x=0;
 $x1=0;
 $name=$_POST['name'];
