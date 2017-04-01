@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Certificate</title>
+<style>
+br{
+	line-height:30px;
+}
+</style>
+</head>
+<body>
+	<form action="pdfcer.php" method="post">
+		Roll no:<input type="text" name="roll" id="roll"><br></br>
+		Reg no.:<input type="text" name="reg" id="reg"><br></br>
+		Name: <input type="text" name="name" id="name"><br></br>
+		Department:<select name="dept">
+			<option value="Computer Science and Engineering">CSE</option>
+			<option value="Electrical Engineering">EE</option>
+			<option value="Mechanical Engineering">ME</option>
+			<option value="Electronics and Communication Engineering">ECE</option>
+			<option value="Information Technology">IT</option>
+			<option value="Civil Engineering">CE</option>
+			</select><br></br>
+		Year:<input type="text" placeholder="yyyy" name="year" id="year"><br></br>
+		Degree:<select name="deg">
+			<option value="Bachelor of Technology">BTECH</option>
+			<option value="Master of Technology">MTECH</option>
+			</select><br></br>
+		DGPA:<input type="text" placeholder="yyyy" name="dgpa" id="dgpa"><br></br>
+		<input type="submit"></input>
+	</form>
+</body>
